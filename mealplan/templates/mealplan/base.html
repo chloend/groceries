@@ -1,0 +1,79 @@
+<!-- templates/base.html -->
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>Groceries App</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		{% tailwind_css %}
+		{% component_css_dependencies %}
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<nav class="bg-white dark:bg-gray-900 fixed w-full z-50 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+					<div class="flex justify-between justify-end">
+						<!--Sidebar button-->
+						<button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+							<span class="sr-only">Open sidebar</span>
+							<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+								<path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+							</svg>
+						</button>
+
+						<!--Navigation links-->
+						<ul class="flex items-center p-3 gap-x-3 md:p-5 md:gap-x-5">
+							<li>
+								<a href="{% url 'mealplan:home' %}" class="block py-2 px-3 rounded bg-transparent text-lime-700 p-0 dark:text-lime-700" aria-current="page">Menu de la semaine</a>
+							</li>
+							<li>
+								<button type="button" class="text-white bg-lime-600 hover:bg-lime-700 focus:ring-4 focus:outline-none focus:ring-lime-800 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-lime-600 dark:hover:bg-lime-700 dark:focus:ring-lime-800">
+									<a href="{% url 'mealplan:recipe-list' %}">Recettes</a>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+			<!-- Sidebar -->
+			<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full" aria-label="Sidebar">
+			   <div class="h-full px-3 pt-24 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+				  <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Liste de courses</span>
+				  <button type="button" id="clear-grocery-list-button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+					Clear
+				</button>
+				<!-- Grocery list goes here -->
+				<ul id="grocery-list" class="space-y-2 font-medium">
+					
+				</ul>
+			   </div>
+			</aside>
+		</div>
+
+		<!-- Page content -->
+		<div class="container mx-auto mt-28 mb-16">
+			{% block content %}
+			{% endblock %}
+    	</div>
+
+	<!-- Global scripts -->
+	<script src="{% static 'mealplan/js/common.js' %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+	{% component_js_dependencies %}
+
+	<!-- Pages related scripts -->
+	<script src="{% static 'mealplan/js/modal.js' %}"></script>
+	<script src="{% static 'mealplan/js/recipe.js' %}"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const recipeFilter = new RecipeFilter('/api/recipes/');
+		});
+	</script>
+	<!--<script src="{% static 'mealplan/js/search.js' %}"></script>
+	<script src="{% static 'mealplan/js/category_filter.js' %}"></script>-->
+	</body>
+</html>
