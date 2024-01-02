@@ -22,8 +22,8 @@ class RecipeFilter {
     }
 
     handleCheckboxChange(checkbox) {
-        var category_id = checkbox.value;
-        var index = this.selectedCategories.indexOf(category_id);
+        const category_id = checkbox.value;
+        const index = this.selectedCategories.indexOf(category_id);
 
         if (checkbox.checked) {
             checkbox.setAttribute('checked', 'checked');
@@ -63,14 +63,14 @@ class RecipeFilter {
     } 
 
     updateRecipesUI(recipes) {
-        var recipeList = document.getElementById('recipe-list');
-        var existingRecipeItems = recipeList.querySelectorAll('.recipe-item');
+        const recipeList = document.getElementById('recipe-list');
+        const existingRecipeItems = recipeList.querySelectorAll('.recipe-item');
 
         existingRecipeItems.forEach(item => item.remove());
     
-        var fragment = document.createDocumentFragment();
+        const fragment = document.createDocumentFragment();
         recipes.forEach(function (recipe) {
-            var recipeElement = document.createElement('li');
+            const recipeElement = document.createElement('li');
             recipeElement.className = 'recipe-item';
             recipeElement.innerHTML = `
             <div class="flex flex-col place-content-around h-60 p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
