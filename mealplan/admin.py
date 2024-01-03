@@ -17,7 +17,6 @@ class RecipeAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Category)
-admin.site.register(Day)
 admin.site.register(Food)
 admin.site.register(Ingredient)
 admin.site.register(Recipe, RecipeAdmin)
