@@ -7,12 +7,12 @@
 
     <div>
         <h2 class="text-lg md:text-2xl font-bold mb-6">
-            Ingrédients pour
+            Ingredients for
         
             {% if recipe.servings > 1 %}
-                {{ recipe.servings }} portions
+                {{ recipe.servings }} servings
             {% else %}
-                {{ recipe.servings }} portion
+                {{ recipe.servings }} serving
             {% endif %}
         </h2>
 
@@ -29,12 +29,12 @@
 
                 {% if ingredient.unit %}
                     {% if ingredient.unit.short_name %}
-                        {{ ingredient.unit.short_name }} de
+                        {{ ingredient.unit.short_name }} of
                     {% else %}
                         {% if ingredient.amount > 1 %}
-                            {{ ingredient.unit.plural_name }} de
+                            {{ ingredient.unit.plural_name }} of
                         {% else %}
-                            {{ ingredient.unit.name }} de
+                            {{ ingredient.unit.name }} of
                         {% endif %}
                     {% endif %}
                 {% endif %}
@@ -46,7 +46,7 @@
     </div>
 
     <div class="mt-6">
-        <h2 class="text-lg md:text-2xl font-bold mb-6">Préparation</h2>
+        <h2 class="text-lg md:text-2xl font-bold mb-6">Instructions</h2>
         <p>{{ recipe.description }}</p>
     </div>
 </div>
