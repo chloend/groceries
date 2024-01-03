@@ -1,0 +1,22 @@
+.idea
+.vscode
+
+# Environnement virtuel
+venv/
+
+# Fichiers de configuration Django
+groceries/local.py
+groceries/__pycache__/
+groceries/migrations/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de configuration système
+.DS_Store
+Thumbs.db
+db.sqlite3
+
+# Fichiers de configuration Tailwind
+theme/static/css/dist/
