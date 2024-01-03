@@ -64,7 +64,8 @@ python manage.py loaddata mealplan.json
 
 Build css styles from Tailwind CSS :  
 ```
-python manage.py tailwind build
+python manage.py tailwind install
+python manage.py tailwind start
 ```
 
 ## Running
