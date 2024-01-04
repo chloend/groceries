@@ -16,7 +16,7 @@
             {% endif %}
         </h2>
 
-        <ul>
+        <ul class="text-gray-400">
         {% for ingredient in ingredients_list %}
             <li>
                 {% if ingredient.amount %}
@@ -47,7 +47,7 @@
 
     <div class="mt-6">
         <h2 class="text-lg md:text-2xl font-bold mb-6">Instructions</h2>
-        <p>{{ recipe.description }}</p>
+        <p class="text-gray-400">{{ recipe.description }}</p>
     </div>
 </div>
 {% endblock %}
