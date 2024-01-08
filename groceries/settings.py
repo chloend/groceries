@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'theme',
     'django_browser_reload',
     'rest_framework',
+    'webpack_loader',
 ]
 
 MIDDLEWARE = [
@@ -64,7 +65,6 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [_os.path.join(BASE_DIR, "mealplan/templates/mealplan")],
-        # 'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -89,6 +89,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'groceries.wsgi.application'
 
+# Webpack
+FRONTEND_DIR = _os.path.join(BASE_DIR, "frontend")
+WEBPACK_LOADER = {
+    "DEFAULT": {
+        "CACHE": not DEBUG,
+        "BUNDLE_DIR_NAME": "/bundles/",
+        "STATS_FILE": _os.path.join(FRONTEND_DIR, "webpack-stats.json"),
+    }
+}
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -140,6 +149,7 @@ STATICFILES_DIRS = [
     _os.path.join(BASE_DIR, "theme", "static"),
     _os.path.join(BASE_DIR, "theme", "static_src"),
     _os.path.join(BASE_DIR, "components"),
+    _os.path.join(BASE_DIR, "frontend/dist/")
 ]
 
 STATIC_URL = 'static/'
