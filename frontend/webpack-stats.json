@@ -1,0 +1,26 @@
+{
+  "status": "done",
+  "assets": {
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "path": "C:\\Users\\Midona\\PycharmProjects\\groceries\\frontend\\dist\\favicon.ico",
+      "publicPath": "http://127.0.0.1:8080/favicon.ico"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "C:\\Users\\Midona\\PycharmProjects\\groceries\\frontend\\dist\\index.html",
+      "publicPath": "http://127.0.0.1:8080/index.html"
+    },
+    "js/app.js": {
+      "name": "js/app.js",
+      "path": "C:\\Users\\Midona\\PycharmProjects\\groceries\\frontend\\dist\\js\\app.js",
+      "publicPath": "http://127.0.0.1:8080/js/app.js"
+    }
+  },
+  "chunks": {
+    "app": [
+      "js/app.js"
+    ]
+  },
+  "publicPath": "http://127.0.0.1:8080/"
+}
