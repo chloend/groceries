@@ -3,6 +3,7 @@
 
 # Environnement virtuel
 venv/
+env/
 
 # Fichiers de configuration Django
 groceries/local.py
