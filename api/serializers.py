@@ -27,7 +27,7 @@ class RecipeDetailSerializer(serializers.ModelSerializer):
                  'plural_name': ingredient.unit.plural_name,
                  } if ingredient.unit else None,
             }
-            for ingredient in obj.ingredient_set.all()
+            for ingredient in obj.ingredient_set.select_related('food', 'unit').all()
         ]
 
 

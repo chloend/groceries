@@ -9,8 +9,8 @@ def home(request):
 
 
 def recipe_list(request):
-    recipes = Recipe.objects.all()
     categories = Category.objects.all()
+    recipes = Recipe.objects.prefetch_related('categories').all()
 
     selected_categories = request.GET.getlist('categories')
 
@@ -21,8 +21,8 @@ def recipe_list(request):
 
 
 def recipe_detail(request, recipe_name):
-    recipe = get_object_or_404(Recipe, slug=recipe_name)
-    ingredients_list = Ingredient.objects.filter(recipe__id=recipe.id)
+    recipe = get_object_or_404(Recipe.objects.prefetch_related('categories'), slug=recipe_name)
+    ingredients_list = Ingredient.objects.filter(recipe=recipe).select_related('food', 'unit')
 
     context = {
         "recipe": recipe,
