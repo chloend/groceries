@@ -1,37 +1,40 @@
 # api/views.py
 from django.db.models import Q
-from django.shortcuts import get_object_or_404
-
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
+from rest_framework.generics import ListAPIView, RetrieveAPIView
 
 from mealplan.models import Recipe
 from .serializers import RecipeDetailSerializer, RecipeListSerializer
 
 
-class RecipeDetailsAPIView(APIView):
-    def get(self, _, slug):
-        recipe = get_object_or_404(Recipe, slug=slug)
-        serializer = RecipeDetailSerializer(recipe)
-        return Response(serializer.data)
+class RecipeDetailsAPIView(RetrieveAPIView):
+    queryset = Recipe.objects.prefetch_related('categories', 'ingredients').all()
+    serializer_class = RecipeDetailSerializer
+    lookup_field = 'slug'
 
 
-class RecipeListAPIView(APIView):
-    def get(self, request):
-        search_value = request.query_params.get('search', '')
-        category_values = request.query_params.getlist('categories')
+class RecipeListAPIView(ListAPIView):
+    queryset = Recipe.objects.prefetch_related('categories').all()
+    serializer_class = RecipeListSerializer
 
-        recipes = Recipe.objects.all()
+    def get_queryset(self):
+        search_value = self.request.query_params.get('search', '')
+        category_values = self.request.query_params.getlist('categories')
 
-        if search_value:
-            recipes = recipes.filter(name__icontains=search_value)
+        queryset = self.queryset
 
-        if category_values:
+        # Use of Q() query to combine search and category values
+        query_filter = Q()
+
+        if search_value: # Name search
+            query_filter &= Q(name__icontains=search_value)
+
+        if category_values: # Cateogry filter
             category_filter = Q()
             for category_value in category_values:
                 category_filter |= Q(categories__name=category_value)
-            recipes = recipes.filter(category_filter)
-        
-        serializer = RecipeListSerializer(recipes, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+            query_filter &= category_filter
+
+        # Apply filters combined to queryset
+        queryset = queryset.filter(query_filter)
+
+        return queryset
