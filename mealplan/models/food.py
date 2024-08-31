@@ -1,7 +1,6 @@
 """
 Food model
 """
-
 from django.db import models
 from django.core.exceptions import ValidationError
 
@@ -22,7 +21,7 @@ class Food(models.Model):
             raise ValidationError('A food with this name already exists.')
 
     def save(self, *args, **kwargs):
-        """Save Food object"""
+        """Save Food in database"""
         self.clean()
         super().save(*args, **kwargs)
 

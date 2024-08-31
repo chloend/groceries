@@ -12,7 +12,7 @@ class Category(models.Model):
     name = models.CharField(max_length=100, unique=True)
 
     def clean(self):
-        """Clean category field before validation"""
+        """Clean category name field before validation"""
         if not self.name:
             raise ValidationError('The name field cannot be empty.')
         if not re.match(r'^[a-zA-Z\s]+$', self.name):
@@ -21,7 +21,7 @@ class Category(models.Model):
             raise ValidationError('A category with this name already exists.')
 
     def save(self, *args, **kwargs):
-        """Save Category object"""
+        """Save Category in database"""
         self.clean()
         super().save(*args, **kwargs)
 
