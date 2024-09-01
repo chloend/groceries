@@ -19,24 +19,20 @@ class UnitTests(TestCase):
 
     def test_create_unit_with_empty_name(self):
         """Test creating a unit with empty name"""
-        unit = Unit(name="")
         with self.assertRaises(ValidationError):
-            unit.full_clean()
-            unit.save()
+            Unit.objects.create(name="")
 
     def test_create_unit_with_invalid_characters(self):
         """Test creating a unit with invalid characters"""
         invalid_names = ["12345", "@#$%", "Kilogram1", "Kilogram!"]
         for name in invalid_names:
             with self.assertRaises(ValidationError):
-                unit = Unit(name=name)
-                unit.full_clean()
-                unit.save()
+                Unit.objects.create(name=name)
 
     def test_unit_name_max_length(self):
         """Test that unit name cannot exceed max_length"""
         max_length = Unit._meta.get_field('name').max_length
-        unit = Unit(name="A" * (max_length + 1))
+        unit = Unit(name='A' * (max_length + 1))
         with self.assertRaises(ValidationError):
             unit.full_clean()
             unit.save()
@@ -44,15 +40,13 @@ class UnitTests(TestCase):
     def test_unit_short_name_max_length(self):
         """Test that unit short name cannot exceed max_length"""
         max_length = Unit._meta.get_field('short_name').max_length
-        unit = Unit(short_name="A" * (max_length + 1))
+
         with self.assertRaises(ValidationError):
-            unit.full_clean()
-            unit.save()
+            Unit.objects.create(short_name='A' * (max_length + 1))
 
     def test_unit_plural_name_max_length(self):
         """Test that unit plural name cannot exceed max_length"""
         max_length = Unit._meta.get_field('plural_name').max_length
-        unit = Unit(plural_name="A" * (max_length + 1))
+
         with self.assertRaises(ValidationError):
-            unit.full_clean()
-            unit.save()
+            Unit.objects.create(plural_name='A' * (max_length + 1))
