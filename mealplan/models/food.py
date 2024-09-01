@@ -15,11 +15,11 @@ class Food(models.Model):
     def clean(self):
         """Clean food name field before validation"""
         if not self.name:
-            raise ValidationError('The name field cannot be empty.')
+            raise ValidationError({'name': 'The name field cannot be empty.'})
         if not re.match(r'^[a-zA-Z\s]+$', self.name):
-            raise ValidationError('The name field must contain only letters and spaces.')
+            raise ValidationError({'name': 'The name field must contain only letters and spaces.'})
         if Food.objects.filter(name__iexact=self.name).exists():
-            raise ValidationError('A food with this name already exists.')
+            raise ValidationError({'name': 'A food with this name already exists.'})
 
     def save(self, *args, **kwargs):
         """Save Food object"""
