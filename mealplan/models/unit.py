@@ -9,7 +9,11 @@ import re
 
 class Unit(models.Model):
     """Unit object"""
+<<<<<<< Updated upstream
     name = models.CharField(max_length=50)
+=======
+    name = models.CharField(max_length=50, unique=True)
+>>>>>>> Stashed changes
     short_name = models.CharField(max_length=10, blank=True, null=True)
     plural_name = models.CharField(max_length=50, blank=True, null=True)
 
@@ -29,10 +33,17 @@ class Unit(models.Model):
         if self.plural_name and not valid_field_regex.match(self.plural_name):
             raise ValidationError({'plural_name': 'The plural name should only contain letters and spaces.'})
 
+<<<<<<< Updated upstream
     def svae(self, *args, **kwargs):
         """Save Unit in database"""
         self.clean()
         super.save(*args, **kwargs)
+=======
+    def save(self, *args, **kwargs):
+        """Save Unit in database"""
+        self.clean()
+        super().save(*args, **kwargs)
+>>>>>>> Stashed changes
 
     def __str__(self):
         return self.name
