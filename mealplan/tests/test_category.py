@@ -35,13 +35,12 @@ class CategoryTests(TestCase):
         """Test creating two categories with the same names but different cases"""
         Category.objects.create(name="Dessert")
         with self.assertRaises(ValidationError):
-            category = Category(name="dessert")
-            category.full_clean()
-            category.save()
+            Category.objects.create(name="dessert")
 
-    def test_food_name_max_length(self):
+    def test_category_name_max_length(self):
         """Test that category name cannot exceed max_length"""
         max_length = Category._meta.get_field('name').max_length
-        food = Category(name="A" * (max_length + 1))
+        category = Category(name='A' * (max_length + 1))
         with self.assertRaises(ValidationError):
-            food.full_clean()
+            category.full_clean()
+            category.save()
