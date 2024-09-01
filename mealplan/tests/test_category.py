@@ -35,13 +35,20 @@ class CategoryTests(TestCase):
         """Test creating two categories with the same names but different cases"""
         Category.objects.create(name="Dessert")
         with self.assertRaises(ValidationError):
-            category = Category(name="dessert")
-            category.full_clean()
-            category.save()
+            Category.objects.create(name="dessert")
 
-    def test_food_name_max_length(self):
+    def test_category_name_max_length(self):
         """Test that category name cannot exceed max_length"""
         max_length = Category._meta.get_field('name').max_length
-        food = Category(name="A" * (max_length + 1))
+        category = Category(name='A' * (max_length + 1))
+
+        # Note: For required fields, it's recommended to use full_clean()
+        # instead of create(). The create() method does not automatically
+        # enforce model field constraints such as max_length. Using full_clean()
+        # ensures that all model validations, including max_length, are properly
+        # checked before saving the object to the database. This is especially
+        # important to prevent invalid data from being saved in cases where the
+        # admin interface or other forms might bypass client-side validations.
         with self.assertRaises(ValidationError):
-            food.full_clean()
+            category.full_clean()
+            category.save()
