@@ -2,6 +2,7 @@
 Ingredient model
 """
 from django.db import models
+from django.db.models import UniqueConstraint
 from django.core.exceptions import ValidationError
 
 from .food import Food
@@ -15,6 +16,11 @@ class Ingredient(models.Model):
     recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
     amount = models.FloatField(null=True, blank=True)
     unit = models.ForeignKey(Unit, on_delete=models.CASCADE, null=True, blank=True)
+
+    class Meta:
+        constraints = [
+            UniqueConstraint(fields=['food', 'recipe'], name='unique_food_recipe')
+        ]
 
     def clean(self):
         """Check ingredient amount field before validation"""
