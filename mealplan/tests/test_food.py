@@ -17,31 +17,27 @@ class FoodTests(TestCase):
 
     def test_create_food_with_empty_name(self):
         """Test creating food with empty name"""
-        food = Food(name="")
         with self.assertRaises(ValidationError):
-            food.full_clean()
-            food.save()
+            Food.objects.create(name="")
 
     def test_create_food_with_invalid_characters(self):
         """Test creating a category with invalid characters"""
         invalid_names = ["12345", "@#$%", "Vegetarian1", "Vegetarian!"]
         for name in invalid_names:
             with self.assertRaises(ValidationError):
-                food = Food(name=name)
-                food.full_clean()
-                food.save()
+                Food.objects.create(name=name)
 
     def test_create_food_with_dupplicate_names(self):
         """Test creating food with the same names but different cases"""
         Food.objects.create(name="Apple")
+
         with self.assertRaises(ValidationError):
-            food = Food(name="apple")
-            food.full_clean()
-            food.save()
+            Food.objects.create(name="apple")
 
     def test_food_name_max_length(self):
         """Test checking food name cannot exceed max_length"""
         max_length = Food._meta.get_field('name').max_length
-        food = Food(name="A" * (max_length + 1))
+        food = Food(name='A' * (max_length + 1))
         with self.assertRaises(ValidationError):
             food.full_clean()
+            food.save()
