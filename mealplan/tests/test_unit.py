@@ -33,6 +33,14 @@ class UnitTests(TestCase):
         """Test that unit name cannot exceed max_length"""
         max_length = Unit._meta.get_field('name').max_length
         unit = Unit(name='A' * (max_length + 1))
+
+        # Note: For required fields, it's recommended to use full_clean()
+        # instead of create(). The create() method does not automatically
+        # enforce model field constraints such as max_length. Using full_clean()
+        # ensures that all model validations, including max_length, are properly
+        # checked before saving the object to the database. This is especially
+        # important to prevent invalid data from being saved in cases where the
+        # admin interface or other forms might bypass client-side validations.
         with self.assertRaises(ValidationError):
             unit.full_clean()
             unit.save()
