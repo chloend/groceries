@@ -1,405 +1,405 @@
 [
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 1,
   "fields": {
     "name": "Gluten free"
   }
 },
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 2,
   "fields": {
     "name": "Vegetarian"
   }
 },
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 3,
   "fields": {
     "name": "Vegan"
   }
 },
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 4,
   "fields": {
     "name": "Lactose free"
   }
 },
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 5,
   "fields": {
     "name": "Dessert"
   }
 },
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 6,
   "fields": {
     "name": "Breakfast"
   }
 },
 {
-  "model": "mealplan.category",
+  "model": "recipe.category",
   "pk": 7,
   "fields": {
     "name": "Snack"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 1,
   "fields": {
     "name": "Shallot"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 2,
   "fields": {
     "name": "Olive oil"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 3,
   "fields": {
     "name": "Leek"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 4,
   "fields": {
     "name": "Risotto rice"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 5,
   "fields": {
     "name": "White wine"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 6,
   "fields": {
     "name": "Water"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 7,
   "fields": {
     "name": "Broth"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 8,
   "fields": {
     "name": "Salt"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 9,
   "fields": {
     "name": "Pepper"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 10,
   "fields": {
     "name": "Smoked lardons"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 11,
   "fields": {
     "name": "Heavy cream"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 12,
   "fields": {
     "name": "Parmesan"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 13,
   "fields": {
     "name": "Oat"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 14,
   "fields": {
     "name": "Wheat flour"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 15,
   "fields": {
     "name": "Sugar"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 16,
   "fields": {
     "name": "Egg"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 17,
   "fields": {
     "name": "Stewed apples"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 18,
   "fields": {
     "name": "Greek yoghurt"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 19,
   "fields": {
     "name": "Baking powder"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 20,
   "fields": {
     "name": "Neutral oil"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 21,
   "fields": {
     "name": "Banana"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 22,
   "fields": {
     "name": "Chocolate"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 23,
   "fields": {
     "name": "Goat cheese"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 24,
   "fields": {
     "name": "Goat grated cheese"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 25,
   "fields": {
     "name": "Milk"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 26,
   "fields": {
     "name": "Olives"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 27,
   "fields": {
     "name": "Dried tomatoes"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 28,
   "fields": {
     "name": "Basil"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 29,
   "fields": {
     "name": "Azuki beans"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 30,
   "fields": {
     "name": "Butter"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 31,
   "fields": {
     "name": "Cocoa"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 32,
   "fields": {
     "name": "Sardine in oil"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 33,
   "fields": {
     "name": "Chives"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 34,
   "fields": {
     "name": "Lemon juice"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 35,
   "fields": {
     "name": "Cheese spread"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 36,
   "fields": {
     "name": "Capers"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 37,
   "fields": {
     "name": "Chickpeas"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 38,
   "fields": {
     "name": "Lemon"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 39,
   "fields": {
     "name": "Cumin"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 40,
   "fields": {
     "name": "Sesame oil"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 41,
   "fields": {
     "name": "Tahini"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 42,
   "fields": {
     "name": "Garlic"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 43,
   "fields": {
     "name": "Frozen berries"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 44,
   "fields": {
     "name": "Cinnamon"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 45,
   "fields": {
     "name": "Chia seeds"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 47,
   "fields": {
     "name": "Honey"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 48,
   "fields": {
     "name": "Tomato white beans"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 49,
   "fields": {
     "name": "Yellow onion"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 50,
   "fields": {
     "name": "Parsley"
   }
 },
 {
-  "model": "mealplan.food",
+  "model": "recipe.food",
   "pk": 51,
   "fields": {
     "name": "Apple"
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 3,
   "fields": {
     "name": "Banana and chocolate oatmeal muffins",
@@ -415,7 +415,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 4,
   "fields": {
     "name": "Leek risotto",
@@ -428,7 +428,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 5,
   "fields": {
     "name": "Goat cheese, olives and dried tomatoes cake",
@@ -442,7 +442,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 6,
   "fields": {
     "name": "Azuki beans brownie",
@@ -458,7 +458,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 7,
   "fields": {
     "name": "Lemon and capers sardine spread",
@@ -471,7 +471,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 8,
   "fields": {
     "name": "Hummus",
@@ -487,7 +487,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 9,
   "fields": {
     "name": "Chocolate and banane oatmeal bowlcake",
@@ -504,7 +504,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 10,
   "fields": {
     "name": "Greek yoghurt with berries",
@@ -521,7 +521,7 @@
   }
 },
 {
-  "model": "mealplan.recipe",
+  "model": "recipe.recipe",
   "pk": 11,
   "fields": {
     "name": "Beanshuka",
@@ -536,7 +536,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 1,
   "fields": {
     "name": "gram",
@@ -545,7 +545,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 2,
   "fields": {
     "name": "liter",
@@ -554,7 +554,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 3,
   "fields": {
     "name": "pinch",
@@ -563,7 +563,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 4,
   "fields": {
     "name": "tablespoon",
@@ -572,7 +572,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 5,
   "fields": {
     "name": "teaspoon",
@@ -581,7 +581,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 6,
   "fields": {
     "name": "milliliter",
@@ -590,7 +590,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 7,
   "fields": {
     "name": "sachet",
@@ -599,7 +599,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 8,
   "fields": {
     "name": "cube",
@@ -608,7 +608,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 9,
   "fields": {
     "name": "centiliter",
@@ -617,7 +617,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 10,
   "fields": {
     "name": "can",
@@ -626,7 +626,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 11,
   "fields": {
     "name": "clove",
@@ -635,7 +635,7 @@
   }
 },
 {
-  "model": "mealplan.unit",
+  "model": "recipe.unit",
   "pk": 12,
   "fields": {
     "name": "piece",
@@ -644,7 +644,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 3,
   "fields": {
     "food": 13,
@@ -654,7 +654,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 4,
   "fields": {
     "food": 14,
@@ -664,7 +664,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 5,
   "fields": {
     "food": 15,
@@ -674,7 +674,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 6,
   "fields": {
     "food": 21,
@@ -684,7 +684,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 7,
   "fields": {
     "food": 16,
@@ -694,7 +694,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 8,
   "fields": {
     "food": 17,
@@ -704,7 +704,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 9,
   "fields": {
     "food": 18,
@@ -714,7 +714,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 10,
   "fields": {
     "food": 20,
@@ -724,7 +724,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 11,
   "fields": {
     "food": 19,
@@ -734,7 +734,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 12,
   "fields": {
     "food": 8,
@@ -744,7 +744,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 13,
   "fields": {
     "food": 22,
@@ -754,7 +754,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 14,
   "fields": {
     "food": 1,
@@ -764,7 +764,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 15,
   "fields": {
     "food": 2,
@@ -774,7 +774,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 16,
   "fields": {
     "food": 3,
@@ -784,7 +784,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 17,
   "fields": {
     "food": 4,
@@ -794,7 +794,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 18,
   "fields": {
     "food": 5,
@@ -804,7 +804,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 19,
   "fields": {
     "food": 6,
@@ -814,7 +814,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 20,
   "fields": {
     "food": 7,
@@ -824,7 +824,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 21,
   "fields": {
     "food": 10,
@@ -834,7 +834,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 22,
   "fields": {
     "food": 11,
@@ -844,7 +844,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 23,
   "fields": {
     "food": 12,
@@ -854,7 +854,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 24,
   "fields": {
     "food": 8,
@@ -864,7 +864,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 25,
   "fields": {
     "food": 9,
@@ -874,7 +874,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 26,
   "fields": {
     "food": 23,
@@ -884,7 +884,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 27,
   "fields": {
     "food": 24,
@@ -894,7 +894,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 28,
   "fields": {
     "food": 14,
@@ -904,7 +904,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 29,
   "fields": {
     "food": 25,
@@ -914,7 +914,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 30,
   "fields": {
     "food": 16,
@@ -924,7 +924,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 31,
   "fields": {
     "food": 27,
@@ -934,7 +934,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 32,
   "fields": {
     "food": 26,
@@ -944,7 +944,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 33,
   "fields": {
     "food": 9,
@@ -954,7 +954,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 34,
   "fields": {
     "food": 28,
@@ -964,7 +964,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 35,
   "fields": {
     "food": 29,
@@ -974,7 +974,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 36,
   "fields": {
     "food": 15,
@@ -984,7 +984,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 37,
   "fields": {
     "food": 30,
@@ -994,7 +994,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 38,
   "fields": {
     "food": 22,
@@ -1004,7 +1004,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 39,
   "fields": {
     "food": 31,
@@ -1014,7 +1014,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 40,
   "fields": {
     "food": 16,
@@ -1024,7 +1024,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 41,
   "fields": {
     "food": 8,
@@ -1034,7 +1034,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 42,
   "fields": {
     "food": 32,
@@ -1044,7 +1044,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 43,
   "fields": {
     "food": 1,
@@ -1054,7 +1054,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 44,
   "fields": {
     "food": 33,
@@ -1064,7 +1064,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 45,
   "fields": {
     "food": 34,
@@ -1074,7 +1074,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 46,
   "fields": {
     "food": 35,
@@ -1084,7 +1084,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 47,
   "fields": {
     "food": 36,
@@ -1094,7 +1094,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 48,
   "fields": {
     "food": 8,
@@ -1104,7 +1104,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 49,
   "fields": {
     "food": 9,
@@ -1114,7 +1114,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 50,
   "fields": {
     "food": 37,
@@ -1124,7 +1124,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 51,
   "fields": {
     "food": 38,
@@ -1134,7 +1134,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 52,
   "fields": {
     "food": 34,
@@ -1144,7 +1144,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 53,
   "fields": {
     "food": 39,
@@ -1154,7 +1154,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 54,
   "fields": {
     "food": 40,
@@ -1164,7 +1164,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 55,
   "fields": {
     "food": 41,
@@ -1174,7 +1174,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 56,
   "fields": {
     "food": 2,
@@ -1184,7 +1184,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 57,
   "fields": {
     "food": 8,
@@ -1194,7 +1194,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 58,
   "fields": {
     "food": 42,
@@ -1204,7 +1204,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 59,
   "fields": {
     "food": 13,
@@ -1214,7 +1214,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 60,
   "fields": {
     "food": 22,
@@ -1224,7 +1224,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 61,
   "fields": {
     "food": 21,
@@ -1234,7 +1234,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 62,
   "fields": {
     "food": 16,
@@ -1244,7 +1244,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 63,
   "fields": {
     "food": 25,
@@ -1254,7 +1254,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 64,
   "fields": {
     "food": 19,
@@ -1264,7 +1264,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 65,
   "fields": {
     "food": 18,
@@ -1274,7 +1274,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 66,
   "fields": {
     "food": 43,
@@ -1284,7 +1284,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 67,
   "fields": {
     "food": 22,
@@ -1294,7 +1294,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 68,
   "fields": {
     "food": 45,
@@ -1304,7 +1304,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 69,
   "fields": {
     "food": 44,
@@ -1314,7 +1314,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 70,
   "fields": {
     "food": 47,
@@ -1324,7 +1324,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 71,
   "fields": {
     "food": 48,
@@ -1334,7 +1334,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 72,
   "fields": {
     "food": 18,
@@ -1344,7 +1344,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 73,
   "fields": {
     "food": 16,
@@ -1354,7 +1354,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 74,
   "fields": {
     "food": 49,
@@ -1364,7 +1364,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 75,
   "fields": {
     "food": 50,
@@ -1374,7 +1374,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 76,
   "fields": {
     "food": 8,
@@ -1384,7 +1384,7 @@
   }
 },
 {
-  "model": "mealplan.ingredient",
+  "model": "recipe.ingredient",
   "pk": 77,
   "fields": {
     "food": 9,
