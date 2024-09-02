@@ -1,0 +1,53 @@
+<!-- templates/recipe_detail.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="px-4">
+    <h1 class="text-2xl md:text-4xl font-bold text-center mb-12 sm:mb-16">{{ recipe.name }}</h1>
+
+    <div>
+        <h2 class="text-lg md:text-2xl font-bold mb-6">
+            Ingredients for
+        
+            {% if recipe.servings > 1 %}
+                {{ recipe.servings }} servings
+            {% else %}
+                {{ recipe.servings }} serving
+            {% endif %}
+        </h2>
+
+        <ul class="text-gray-400">
+        {% for ingredient in ingredients_list %}
+            <li>
+                {% if ingredient.amount %}
+                    {% if ingredient.amount == 0.5 %}
+                        1/2
+                    {% else %}
+                        {{ ingredient.amount|stringformat:"2f"|floatformat:"-2"|default:'' }}
+                    {% endif %}
+                {% endif %}
+
+                {% if ingredient.unit %}
+                    {% if ingredient.unit.short_name %}
+                        {{ ingredient.unit.short_name }} of
+                    {% else %}
+                        {% if ingredient.amount > 1 %}
+                            {{ ingredient.unit.plural_name }} of
+                        {% else %}
+                            {{ ingredient.unit.name }} of
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+                
+                {{ ingredient.food.name }}
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    <div class="mt-6">
+        <h2 class="text-lg md:text-2xl font-bold mb-6">Instructions</h2>
+        <p class="text-gray-400">{{ recipe.description }}</p>
+    </div>
+</div>
+{% endblock %}

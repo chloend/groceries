@@ -1,0 +1,1396 @@
+[
+{
+  "model": "mealplan.category",
+  "pk": 1,
+  "fields": {
+    "name": "Gluten free"
+  }
+},
+{
+  "model": "mealplan.category",
+  "pk": 2,
+  "fields": {
+    "name": "Vegetarian"
+  }
+},
+{
+  "model": "mealplan.category",
+  "pk": 3,
+  "fields": {
+    "name": "Vegan"
+  }
+},
+{
+  "model": "mealplan.category",
+  "pk": 4,
+  "fields": {
+    "name": "Lactose free"
+  }
+},
+{
+  "model": "mealplan.category",
+  "pk": 5,
+  "fields": {
+    "name": "Dessert"
+  }
+},
+{
+  "model": "mealplan.category",
+  "pk": 6,
+  "fields": {
+    "name": "Breakfast"
+  }
+},
+{
+  "model": "mealplan.category",
+  "pk": 7,
+  "fields": {
+    "name": "Snack"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 1,
+  "fields": {
+    "name": "Shallot"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 2,
+  "fields": {
+    "name": "Olive oil"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 3,
+  "fields": {
+    "name": "Leek"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 4,
+  "fields": {
+    "name": "Risotto rice"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 5,
+  "fields": {
+    "name": "White wine"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 6,
+  "fields": {
+    "name": "Water"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 7,
+  "fields": {
+    "name": "Broth"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 8,
+  "fields": {
+    "name": "Salt"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 9,
+  "fields": {
+    "name": "Pepper"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 10,
+  "fields": {
+    "name": "Smoked lardons"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 11,
+  "fields": {
+    "name": "Heavy cream"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 12,
+  "fields": {
+    "name": "Parmesan"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 13,
+  "fields": {
+    "name": "Oat"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 14,
+  "fields": {
+    "name": "Wheat flour"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 15,
+  "fields": {
+    "name": "Sugar"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 16,
+  "fields": {
+    "name": "Egg"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 17,
+  "fields": {
+    "name": "Stewed apples"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 18,
+  "fields": {
+    "name": "Greek yoghurt"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 19,
+  "fields": {
+    "name": "Baking powder"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 20,
+  "fields": {
+    "name": "Neutral oil"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 21,
+  "fields": {
+    "name": "Banana"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 22,
+  "fields": {
+    "name": "Chocolate"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 23,
+  "fields": {
+    "name": "Goat cheese"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 24,
+  "fields": {
+    "name": "Goat grated cheese"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 25,
+  "fields": {
+    "name": "Milk"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 26,
+  "fields": {
+    "name": "Olives"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 27,
+  "fields": {
+    "name": "Dried tomatoes"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 28,
+  "fields": {
+    "name": "Basil"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 29,
+  "fields": {
+    "name": "Azuki beans"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 30,
+  "fields": {
+    "name": "Butter"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 31,
+  "fields": {
+    "name": "Cocoa"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 32,
+  "fields": {
+    "name": "Sardine in oil"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 33,
+  "fields": {
+    "name": "Chives"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 34,
+  "fields": {
+    "name": "Lemon juice"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 35,
+  "fields": {
+    "name": "Cheese spread"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 36,
+  "fields": {
+    "name": "Capers"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 37,
+  "fields": {
+    "name": "Chickpeas"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 38,
+  "fields": {
+    "name": "Lemon"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 39,
+  "fields": {
+    "name": "Cumin"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 40,
+  "fields": {
+    "name": "Sesame oil"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 41,
+  "fields": {
+    "name": "Tahini"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 42,
+  "fields": {
+    "name": "Garlic"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 43,
+  "fields": {
+    "name": "Frozen berries"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 44,
+  "fields": {
+    "name": "Cinnamon"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 45,
+  "fields": {
+    "name": "Chia seeds"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 47,
+  "fields": {
+    "name": "Honey"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 48,
+  "fields": {
+    "name": "Tomato white beans"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 49,
+  "fields": {
+    "name": "Yellow onion"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 50,
+  "fields": {
+    "name": "Parsley"
+  }
+},
+{
+  "model": "mealplan.food",
+  "pk": 51,
+  "fields": {
+    "name": "Apple"
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 3,
+  "fields": {
+    "name": "Banana and chocolate oatmeal muffins",
+    "servings": 12,
+    "description": "Mix the oatmeal, flour, sugar, baking powder and a pinch of salt in a salad bowl.\r\n\r\nBeat the egg with the stewed apples, the greek yoghurt and the oil in another container.\r\n\r\nMash the banana into a puree, and add it to the previous mixture.\r\n\r\nMix the two preparations then add the chocolate chips.\r\n\r\nFill the muffin pans ¾ full with the mixture and bake for 15 to 18 minutes in an oven preheated to 180°C.\r\n\r\nLet cool before removing from the pan.",
+    "slug": "banana-and-chocolate-oatmeal-muffins",
+    "categories": [
+      2,
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 4,
+  "fields": {
+    "name": "Leek risotto",
+    "servings": 4,
+    "description": "Put 60 grams of peeled shallots in the Thermomix and mix. Then scrape the sides of the bowl with a spatula.\r\n\r\nAdd 20 grams of olive oil and 200 grams of leeks (only the white parts) washed and chopped into the Thermomix. Brown without the measuring cup.\r\n\r\nAdd 250 grams of risotto rice to the Thermomix.\r\n\r\nAdd 60 grams of white wine to the Thermomix and brown without the measuring cup.\r\n\r\nAdd 100 grams of white wine, 550 grams of water, 1 cube of chicken stock, 1 pinch of salt with herbs (to adjust according to taste) and 1 pinch of pepper (to adjust according to taste) in the Thermomix . Cook with the cooking basket instead of the measuring cup on the bowl lid to avoid splashing.\r\n\r\nAdd 150 grams of smoked lardons to the Thermomix and cook for 10 minutes at 100°C speed 1.\r\n\r\nTransfer the contents of the Thermomix into a container.\r\n\r\nPlace 1 tablespoon of heavy cream and 3 tablespoons of grated Parmesan in the dish.\r\n\r\nMix, adjust the seasoning if necessary then serve.",
+    "slug": "leek-risotto",
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 5,
+  "fields": {
+    "name": "Goat cheese, olives and dried tomatoes cake",
+    "servings": 8,
+    "description": "Preheat the oven to 180°C, thermostat 6.\r\n\r\nDrain the dried tomatoes, sprinkle with basil.\r\n\r\nCut the olives into slices.\r\n\r\nCut the cheese into pieces.\r\n\r\nIn a bowl, whisk the whole eggs, gradually add the flour and baking powder then the milk. Add the grated goat cheese and pepper. Mix the preparation well. Add the tomatoes, olives and slices of goat cheese.\r\n\r\nButter and flour a cake mold.\r\n\r\nPour the cake batter into the mold then bake for around 30 minutes.\r\n\r\nUnmold the cake when it comes out of the oven. Let cool.",
+    "slug": "goat-cheese-olives-and-dried-tomatoes-cake",
+    "categories": [
+      2,
+      7
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 6,
+  "fields": {
+    "name": "Azuki beans brownie",
+    "servings": 9,
+    "description": "Soak the beans overnightt, then cook them for 40 minutes in unsalted water.\r\n\r\nMelt the butter and chocolate in a bain-marie, or in a gentle microwave.\r\n\r\nMash the beans in a salad bowl with a fork (or add the flour), and add the sugar, cocoa and salt.\r\n\r\nMix, add the eggs and the butter-chocolate mixture.\r\n\r\nIncorporate the nuts and chocolate chips if you wish (save some for decoration !).\r\n\r\nPour into a greased mold (square if you have), arrange the remaining nuts on top and bake for 25 to 30 minutes in the oven at 180°C.\r\n\r\nTest the cooking : the blade of a knife should come out a little damp, or with a little dough if you like it very tender (be careful, it may be difficult to cut the brownie).\r\n\r\nEnjoy warm or cold, it can be kept for a few days.",
+    "slug": "azuki-beans-brownie",
+    "categories": [
+      1,
+      2,
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 7,
+  "fields": {
+    "name": "Lemon and capers sardine spread",
+    "servings": 1,
+    "description": "Drain the sardines.\r\n\r\nPlace in a salad bowl and mash with a fork.\r\n \r\nAdd the cheese spread, chives, finely chopped shallot, lemon juice and capers.\r\n\r\nSeason with salt and pepper and mix well.\r\n\r\nRefrigerate for at least 1 hour before serving as an aperitif.",
+    "slug": "lemon-and-capers-sardine-spread",
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 8,
+  "fields": {
+    "name": "Hummus",
+    "servings": 4,
+    "description": "Place the drained chickpeas in a blender. Mix lightly, adding a a bit of the chickpeas water.\r\n\r\nAdd the tahini, lemon juice, garlic, cumin and salt, and continue to mix, incorporating the olive oil little by little until you obtain a homogeneous and creamy texture.\r\n\r\nYou can optionally cover the hummus with sesame oil and cumin.",
+    "slug": "hummus",
+    "categories": [
+      1,
+      3,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 9,
+  "fields": {
+    "name": "Chocolate and banane oatmeal bowlcake",
+    "servings": 1,
+    "description": "Peel the banana, and mash it in a bowl using a fork.\r\n\r\nAdd the milk and egg then mix well.\r\n\r\nAdd the oatmeal, baking powder, honey and chopped chocolate. Stir.\r\n\r\nCook everything for 2 to 3 minutes in the microwave at full power.\r\n\r\nAt the end of cooking, let the bowlcake cool for 2 minutes before eating.",
+    "slug": "chocolate-and-banane-oatmeal-bowlcake",
+    "categories": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 10,
+  "fields": {
+    "name": "Greek yoghurt with berries",
+    "servings": 1,
+    "description": "Put the chia seeds in a bowl and cover them with water for ten minutes.\r\n\r\nPlace the frozen berries in a bowl and defrost them in the microwave.\r\n\r\nPlace the chocolate pieces in a small bowl and add a little boiling water to melt them. Mix.\r\n\r\nAdd the greek yoghurt, cinnamon, honey and chia seeds to the bowl containing the berries. Mix.\r\n\r\nPour the melted chocolate on top of the mix and enjoy !",
+    "slug": "greek-yoghurt-with-berries",
+    "categories": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "mealplan.recipe",
+  "pk": 11,
+  "fields": {
+    "name": "Beanshuka",
+    "servings": 1,
+    "description": "Brown the onion in a pan over low heat.\r\n\r\nAdd the tomate white beans (or white beans and toamato sauce) , salt and pepper. Stir.\r\n\r\nCrack the eggs over the beans and cover the pan.\r\n\r\nLine a plate with the greek yohurt.\r\n\r\nAdd the beans and eggs to the plate, sprinkle with parsley.",
+    "slug": "beanshuka",
+    "categories": [
+      1,
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 1,
+  "fields": {
+    "name": "gram",
+    "short_name": "g",
+    "plural_name": "grams"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 2,
+  "fields": {
+    "name": "liter",
+    "short_name": "l",
+    "plural_name": "liters"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 3,
+  "fields": {
+    "name": "pinch",
+    "short_name": null,
+    "plural_name": "pinches"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 4,
+  "fields": {
+    "name": "tablespoon",
+    "short_name": "tbsp",
+    "plural_name": "tablespoons"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 5,
+  "fields": {
+    "name": "teaspoon",
+    "short_name": "tsp",
+    "plural_name": "teaspoons"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 6,
+  "fields": {
+    "name": "milliliter",
+    "short_name": "ml",
+    "plural_name": "milliliters"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 7,
+  "fields": {
+    "name": "sachet",
+    "short_name": null,
+    "plural_name": "sachets"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 8,
+  "fields": {
+    "name": "cube",
+    "short_name": null,
+    "plural_name": "cubes"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 9,
+  "fields": {
+    "name": "centiliter",
+    "short_name": "cl",
+    "plural_name": "centiliters"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 10,
+  "fields": {
+    "name": "can",
+    "short_name": null,
+    "plural_name": "cans"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 11,
+  "fields": {
+    "name": "clove",
+    "short_name": null,
+    "plural_name": "cloves"
+  }
+},
+{
+  "model": "mealplan.unit",
+  "pk": 12,
+  "fields": {
+    "name": "piece",
+    "short_name": null,
+    "plural_name": "pieces"
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 3,
+  "fields": {
+    "food": 13,
+    "recipe": 3,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 4,
+  "fields": {
+    "food": 14,
+    "recipe": 3,
+    "amount": 180.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 5,
+  "fields": {
+    "food": 15,
+    "recipe": 3,
+    "amount": 130.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 6,
+  "fields": {
+    "food": 21,
+    "recipe": 3,
+    "amount": 1.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 7,
+  "fields": {
+    "food": 16,
+    "recipe": 3,
+    "amount": 1.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 8,
+  "fields": {
+    "food": 17,
+    "recipe": 3,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 9,
+  "fields": {
+    "food": 18,
+    "recipe": 3,
+    "amount": 125.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 10,
+  "fields": {
+    "food": 20,
+    "recipe": 3,
+    "amount": 4.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 11,
+  "fields": {
+    "food": 19,
+    "recipe": 3,
+    "amount": 1.0,
+    "unit": 7
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 12,
+  "fields": {
+    "food": 8,
+    "recipe": 3,
+    "amount": 1.0,
+    "unit": 3
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 13,
+  "fields": {
+    "food": 22,
+    "recipe": 3,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 14,
+  "fields": {
+    "food": 1,
+    "recipe": 4,
+    "amount": 60.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 15,
+  "fields": {
+    "food": 2,
+    "recipe": 4,
+    "amount": 20.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 16,
+  "fields": {
+    "food": 3,
+    "recipe": 4,
+    "amount": 200.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 17,
+  "fields": {
+    "food": 4,
+    "recipe": 4,
+    "amount": 250.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 18,
+  "fields": {
+    "food": 5,
+    "recipe": 4,
+    "amount": 160.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 19,
+  "fields": {
+    "food": 6,
+    "recipe": 4,
+    "amount": 550.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 20,
+  "fields": {
+    "food": 7,
+    "recipe": 4,
+    "amount": 1.0,
+    "unit": 8
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 21,
+  "fields": {
+    "food": 10,
+    "recipe": 4,
+    "amount": 150.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 22,
+  "fields": {
+    "food": 11,
+    "recipe": 4,
+    "amount": 1.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 23,
+  "fields": {
+    "food": 12,
+    "recipe": 4,
+    "amount": 3.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 24,
+  "fields": {
+    "food": 8,
+    "recipe": 4,
+    "amount": 1.0,
+    "unit": 3
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 25,
+  "fields": {
+    "food": 9,
+    "recipe": 4,
+    "amount": 1.0,
+    "unit": 3
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 26,
+  "fields": {
+    "food": 23,
+    "recipe": 5,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 27,
+  "fields": {
+    "food": 24,
+    "recipe": 5,
+    "amount": 50.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 28,
+  "fields": {
+    "food": 14,
+    "recipe": 5,
+    "amount": 180.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 29,
+  "fields": {
+    "food": 25,
+    "recipe": 5,
+    "amount": 10.0,
+    "unit": 9
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 30,
+  "fields": {
+    "food": 16,
+    "recipe": 5,
+    "amount": 3.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 31,
+  "fields": {
+    "food": 27,
+    "recipe": 5,
+    "amount": 10.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 32,
+  "fields": {
+    "food": 26,
+    "recipe": 5,
+    "amount": 50.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 33,
+  "fields": {
+    "food": 9,
+    "recipe": 5,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 34,
+  "fields": {
+    "food": 28,
+    "recipe": 5,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 35,
+  "fields": {
+    "food": 29,
+    "recipe": 6,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 36,
+  "fields": {
+    "food": 15,
+    "recipe": 6,
+    "amount": 200.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 37,
+  "fields": {
+    "food": 30,
+    "recipe": 6,
+    "amount": 110.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 38,
+  "fields": {
+    "food": 22,
+    "recipe": 6,
+    "amount": 169.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 39,
+  "fields": {
+    "food": 31,
+    "recipe": 6,
+    "amount": 40.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 40,
+  "fields": {
+    "food": 16,
+    "recipe": 6,
+    "amount": 3.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 41,
+  "fields": {
+    "food": 8,
+    "recipe": 6,
+    "amount": 1.0,
+    "unit": 3
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 42,
+  "fields": {
+    "food": 32,
+    "recipe": 7,
+    "amount": 2.0,
+    "unit": 10
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 43,
+  "fields": {
+    "food": 1,
+    "recipe": 7,
+    "amount": 1.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 44,
+  "fields": {
+    "food": 33,
+    "recipe": 7,
+    "amount": 1.0,
+    "unit": 5
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 45,
+  "fields": {
+    "food": 34,
+    "recipe": 7,
+    "amount": 1.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 46,
+  "fields": {
+    "food": 35,
+    "recipe": 7,
+    "amount": 80.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 47,
+  "fields": {
+    "food": 36,
+    "recipe": 7,
+    "amount": 1.0,
+    "unit": 5
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 48,
+  "fields": {
+    "food": 8,
+    "recipe": 7,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 49,
+  "fields": {
+    "food": 9,
+    "recipe": 7,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 50,
+  "fields": {
+    "food": 37,
+    "recipe": 8,
+    "amount": 300.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 51,
+  "fields": {
+    "food": 38,
+    "recipe": 8,
+    "amount": 0.5,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 52,
+  "fields": {
+    "food": 34,
+    "recipe": 8,
+    "amount": 2.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 53,
+  "fields": {
+    "food": 39,
+    "recipe": 8,
+    "amount": 1.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 54,
+  "fields": {
+    "food": 40,
+    "recipe": 8,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 55,
+  "fields": {
+    "food": 41,
+    "recipe": 8,
+    "amount": 3.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 56,
+  "fields": {
+    "food": 2,
+    "recipe": 8,
+    "amount": 3.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 57,
+  "fields": {
+    "food": 8,
+    "recipe": 8,
+    "amount": 1.0,
+    "unit": 5
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 58,
+  "fields": {
+    "food": 42,
+    "recipe": 8,
+    "amount": 2.0,
+    "unit": 11
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 59,
+  "fields": {
+    "food": 13,
+    "recipe": 9,
+    "amount": 40.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 60,
+  "fields": {
+    "food": 22,
+    "recipe": 9,
+    "amount": 25.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 61,
+  "fields": {
+    "food": 21,
+    "recipe": 9,
+    "amount": 1.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 62,
+  "fields": {
+    "food": 16,
+    "recipe": 9,
+    "amount": 1.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 63,
+  "fields": {
+    "food": 25,
+    "recipe": 9,
+    "amount": 3.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 64,
+  "fields": {
+    "food": 19,
+    "recipe": 9,
+    "amount": 1.0,
+    "unit": 5
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 65,
+  "fields": {
+    "food": 18,
+    "recipe": 10,
+    "amount": 125.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 66,
+  "fields": {
+    "food": 43,
+    "recipe": 10,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 67,
+  "fields": {
+    "food": 22,
+    "recipe": 10,
+    "amount": 2.0,
+    "unit": 12
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 68,
+  "fields": {
+    "food": 45,
+    "recipe": 10,
+    "amount": 1.0,
+    "unit": 4
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 69,
+  "fields": {
+    "food": 44,
+    "recipe": 10,
+    "amount": 1.0,
+    "unit": 5
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 70,
+  "fields": {
+    "food": 47,
+    "recipe": 10,
+    "amount": 1.0,
+    "unit": 5
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 71,
+  "fields": {
+    "food": 48,
+    "recipe": 11,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 72,
+  "fields": {
+    "food": 18,
+    "recipe": 11,
+    "amount": 100.0,
+    "unit": 1
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 73,
+  "fields": {
+    "food": 16,
+    "recipe": 11,
+    "amount": 2.0,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 74,
+  "fields": {
+    "food": 49,
+    "recipe": 11,
+    "amount": 0.5,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 75,
+  "fields": {
+    "food": 50,
+    "recipe": 11,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 76,
+  "fields": {
+    "food": 8,
+    "recipe": 11,
+    "amount": null,
+    "unit": null
+  }
+},
+{
+  "model": "mealplan.ingredient",
+  "pk": 77,
+  "fields": {
+    "food": 9,
+    "recipe": 11,
+    "amount": null,
+    "unit": null
+  }
+}
+]
