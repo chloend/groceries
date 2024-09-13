@@ -3,18 +3,19 @@
   "assets": {
     "favicon.ico": {
       "name": "favicon.ico",
-      "path": "C:\\Users\\Midona\\PycharmProjects\\groceries\\frontend\\dist\\favicon.ico",
-      "publicPath": "http://127.0.0.1:8080/favicon.ico"
+      "path": "/frontend/dist/favicon.ico",
+      "publicPath": "/favicon.ico",
+      "sourceFilename": "public/favicon.ico"
     },
     "index.html": {
       "name": "index.html",
-      "path": "C:\\Users\\Midona\\PycharmProjects\\groceries\\frontend\\dist\\index.html",
-      "publicPath": "http://127.0.0.1:8080/index.html"
+      "path": "/frontend/dist/index.html",
+      "publicPath": "/index.html"
     },
     "js/app.js": {
       "name": "js/app.js",
-      "path": "C:\\Users\\Midona\\PycharmProjects\\groceries\\frontend\\dist\\js\\app.js",
-      "publicPath": "http://127.0.0.1:8080/js/app.js"
+      "path": "/frontend/dist/js/app.js",
+      "publicPath": "/js/app.js"
     }
   },
   "chunks": {
@@ -22,5 +23,5 @@
       "js/app.js"
     ]
   },
-  "publicPath": "http://127.0.0.1:8080/"
+  "publicPath": "/"
 }
