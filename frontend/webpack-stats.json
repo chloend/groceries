@@ -1,6 +1,26 @@
 {
   "status": "done",
   "assets": {
+    "app.7175bfa3eef08bdc.hot-update.js": {
+      "name": "app.7175bfa3eef08bdc.hot-update.js",
+      "path": "/frontend/dist/app.7175bfa3eef08bdc.hot-update.js",
+      "publicPath": "/app.7175bfa3eef08bdc.hot-update.js"
+    },
+    "app.7175bfa3eef08bdc.hot-update.json": {
+      "name": "app.7175bfa3eef08bdc.hot-update.json",
+      "path": "/frontend/dist/app.7175bfa3eef08bdc.hot-update.json",
+      "publicPath": "/app.7175bfa3eef08bdc.hot-update.json"
+    },
+    "app.c5224b16cb17facf.hot-update.js": {
+      "name": "app.c5224b16cb17facf.hot-update.js",
+      "path": "/frontend/dist/app.c5224b16cb17facf.hot-update.js",
+      "publicPath": "/app.c5224b16cb17facf.hot-update.js"
+    },
+    "app.c5224b16cb17facf.hot-update.json": {
+      "name": "app.c5224b16cb17facf.hot-update.json",
+      "path": "/frontend/dist/app.c5224b16cb17facf.hot-update.json",
+      "publicPath": "/app.c5224b16cb17facf.hot-update.json"
+    },
     "favicon.ico": {
       "name": "favicon.ico",
       "path": "/frontend/dist/favicon.ico",
@@ -23,5 +43,7 @@
       "js/app.js"
     ]
   },
-  "publicPath": "/"
+  "publicPath": "/",
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open '/frontend/node_modules/vue/dist/vue.runtime.esm-bundler.js'"
 }
