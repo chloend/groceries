@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'theme',
     'recipe',
     'rest_framework',
-    'webpack_loader',
 ]
 
 MIDDLEWARE = [
@@ -91,15 +90,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
-# Webpack
-FRONTEND_DIR = _os.path.join(BASE_DIR, "frontend")
-WEBPACK_LOADER = {
-    "DEFAULT": {
-        "CACHE": not DEBUG,
-        "BUNDLE_DIR_NAME": "/bundles/",
-        "STATS_FILE": _os.path.join(FRONTEND_DIR, "webpack-stats.json"),
-    }
-}
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
