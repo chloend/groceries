@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_browser_reload',
     'debug_toolbar',
     'core',
+    'corsheaders',
     'api',
     'tailwind',
     'theme',
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
